@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.color-text {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.select {
+    font-size: 16px;
+    padding: 6px 10px;
+}
