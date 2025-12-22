@@ -1,11 +1,11 @@
 <?php
 $products = [
-    ['name' => 'Тетрадь', 'price' => 8, 'stock' => 150],
-    ['name' => 'Монитор', 'price' => 950, 'stock' => 5],
-    ['name' => 'Ластик', 'price' => 3, 'stock' => 300],
-    ['name' => 'Колонки', 'price' => 60, 'stock' => 0],
-    ['name' => 'Флешка', 'price' => 40, 'stock' => 25],
-    ['name' => 'Линейка', 'price' => 4, 'stock' => 120],
+    ['name' => 'Ручка', 'price' => 5, 'stock' => 100],
+    ['name' => 'Ноутбук', 'price' => 1200, 'stock' => 10],
+    ['name' => 'Блокнот', 'price' => 15, 'stock' => 50],
+    ['name' => 'Мышь', 'price' => 45, 'stock' => 0],
+    ['name' => 'Клавиатура', 'price' => 70, 'stock' => 20],
+    ['name' => 'Карандаш', 'price' => 2, 'stock' => 200],
 ];
 
 $filteredProducts = array_filter($products, function($product) {
